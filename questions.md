@@ -102,15 +102,6 @@ A-B  | B then A  | A then B
 A-C  | C then A  | C then A
 B-C  | B then C  | C then B
 
-Write a program `triangle.c` that draws an isosceles
-triangle using ` ` (white space) and `#`.  The program must
-read in a positive integer representing the height h of a
-triangle.  The triangle must have exactly h rows.  Each row
-must have exactly 2h-1 characters (including white spaces
-but excluding a new line).  On each row, the sequence of "#"
-characters must be centralized, padded by white spaces on
-both sides.
-
 Out of the three pairs, the pair A-B and B-C are ordered
 differently in the two rankings, so that Kendall tau
 distance is 2.
