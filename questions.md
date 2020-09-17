@@ -29,9 +29,9 @@ R  | Check Code
 11 | A
 12 | B
 
-Write a program `id.c` that reads in an integer containing
-the digits of a student's id from the standard input. Print
-out the check code to the standard output.
+Write a program `id.c` that reads in a positive integer
+containing the digits of a student's id from the standard
+input. Print out the check code to the standard output.
 
 You can use the `putchar` function to print a single `char`
 variable to the standard output.
@@ -248,7 +248,7 @@ which is the numbers sorted in increasing order.
 Write a program countingsort.c that reads the following in
 order from the standard input:
 
--  n, the number of integers to sort.
+-  n, the number of integers to sort (n > 0).
 -  The next n numbers are the integers to be sorted, each
    guaranteed to be between 0 and 10000.
 
@@ -264,6 +264,11 @@ following:
 
 Note that if you use any other algorithms to sort the
 numbers, you will be penalized heavily.
+
+Further, your code should go through every element in the 
+array returned by the CS1010 I/O library exactly once.  
+You will loose 1 mark for efficiency if you go through it 
+more than once.
 
 Sample Run
 ----------
